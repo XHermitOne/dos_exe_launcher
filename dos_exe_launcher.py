@@ -29,7 +29,7 @@ import os.path
 import platform
 import getopt
 
-__version__ = (0, 0, 0, 1)
+__version__ = (0, 0, 0, 2)
 
 DOSBOX_CMD_FMT = 'dosbox -c \"mount C: %s\" -c \"mount D: /mnt\" -c \"mount E: /media\" -c \"mount X: /usr/share/dos_exe_launcher\" -c \"X:\\rk.com\" -c "%s" %s %s'
 

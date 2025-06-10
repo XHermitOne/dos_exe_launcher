@@ -196,7 +196,7 @@ def saveTextFile(txt_filename, txt='', rewrite=True):
 
 
 PACKAGENAME = 'dos-exe-launcher'
-PACKAGE_VERSION = '0.1'
+PACKAGE_VERSION = '0.2'
 LINUX_VERSION = '-'.join([str(x).lower() for x in getOSVersion()[:-1]])
 LINUX_PLATFORM = 'all'  # 'amd64' if is64Linux() else 'i386'
 DEPENDS = ', '.join(('dosbox', ))
